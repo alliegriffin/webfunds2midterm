@@ -1,0 +1,121 @@
+body{
+}
+
+h1{
+	margin-right: 200px;
+	margin-left: 200px;
+	font-family: Georgia;
+	font-size: 30px;
+	padding: 10px;
+}
+
+h2{
+	margin-right: 200px;
+	margin-left: 200px;
+	font-family: Helvetica;
+	font-size: 20px;
+	padding: 10px;
+}
+
+h3{
+	margin-right: 200px;
+	margin-left: 200px;
+	font-family: Georgia;
+	font-size: 18px;
+	padding: 15px;
+	font-style: italic;
+	font-variant: small-caps;
+}
+
+p{
+	margin-right: 200px;
+	margin-left: 200px;
+	padding: 10px;
+	font-family: Georgia;
+	font-size: 20px;
+	line-height: 30px;
+
+}
+
+img{
+	width: 60%;
+	margin-left: 245px;
+	margin-right: 245px;
+	margin-top:15px;
+}
+
+.caption{
+	font-family: Helvetica; 
+	font-size: 12px;
+	margin-left: 235px;
+	margin-right: 240px;
+	line-height: 20px;
+	font-style: italic;
+}
+
+hr{
+	width: 500px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.sidebar{
+	background-color: #ced8e8;
+	float:right;
+	height: 1090px;
+	width: 300px;
+	margin-left:50px;
+	margin-right: 50px;
+	animation:PopUp 3s ease-in-out 2s 5 backwards;
+}
+
+@keyframes PopUp{
+
+	0%{
+		transform: ;
+		width: 300px;
+	}
+
+	50%{
+		transform: translate(-250px);
+		width: 500px;
+	}
+
+	100%{
+		transform: translate(-500px);
+		width: 700px;
+	}
+
+}
+
+ul{
+	padding-top:20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+li{
+	padding: 10px;
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+
+
+.hero img{
+	width: 100%;
+	margin:0;
+	transition: all 2s 0.5s;
+}
+
+.hero .caption{
+	margin:0;
+	text-align: right;
+}
+
+.hero:hover img{
+	transform: scale(.8);
+}
+
+
